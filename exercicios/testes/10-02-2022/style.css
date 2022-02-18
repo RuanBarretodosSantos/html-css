@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/*Em HTMl é id = em CSS é #
+  Em HTMl é class = em CSS é .
+*/
+body{
+    background-image: linear-gradient(to top, #745fff, #3807FA);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: lighter;
+   background-attachment: fixed;
+}
+h1{
+    color: #2E2375;
+}
+.basico{
+    color: #37F20C;
+}
+.intermediario{
+    color: #F2D30C;
+}
+.avançado{
+    color: #DB0013;
+}
+.titulo{
+    text-align: center;
+    color: #ffffff;
+    background-color: #2E2375;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.titulo2{
+    text-align: center;
+    color: #ffffff;
+    background-color: #2E2375;
+}
+.destaque{
+    background-color: #5805fd44;
+}
+main{
+    width: 1500px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-indent: 10px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.534);
+}
+div > p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+    color: #745fff;
+}
+div{
+    color: #2E2375;
+}
+.obrigado{
+    font-size: 1.3em
+}
+.fim{
+    font-size: 2em;
+    width: 10px;
+}
+

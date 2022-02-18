@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body{
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: rgb(194, 194, 194);;
+    outline-color: black ;
+    outline-style: solid;
+    border-radius: 2px;
+    margin: 10px;
+}
+nav > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: red;
+}
+header{
+    background-color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 3px 0px 9px rgba(0, 0, 0, 0.938);  
+}
+header > h1{
+    background-color: rgb(212, 208, 208);
+    margin: 10px;
+    padding: 10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+main{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.938);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+footer{
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px ;
+}
+section{
+background-color: rgb(212, 208, 208);
+margin: 10px;
+padding: 10px;
+}
+article > aside{
+background-color: rgb(212, 208, 208);
+} 
+article > aside > h1{
+font-size: 2em;
+}
+footer > p:hover{
+    color: red;
+    text-decoration: underline;
+}
