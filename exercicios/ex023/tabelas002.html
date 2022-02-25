@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        *{
+            text-align: center; 
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main{
+            background-color: rgba(8, 255, 160, 0.288);
+            max-width: 500px;
+            margin: auto;
+            border-radius: 5px 5px 0px 0px;
+        }
+      caption{
+            font-size: 1.5em;
+            padding: 10px;
+            font-weight: bold;
+        }
+        table{
+            width: 500px;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px; 
+            text-align: left;
+            
+        }
+        thead, tfoot{
+            background-color: rgb(95, 95, 95);
+            color: white;
+           
+        }
+        .nume{
+            text-align: right;
+        }
+        th.populacao{
+           width: 50px;
+        }
+        tbody tr{
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: white;
+        }
+    </style>
+</head>
+ <!--ANOTOMIA PARA TABELAS GRANDES
+    TABLE
+    CAPTION
+         THEAD
+         TBODY
+         TFOOT
+    -->
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <main>
+<table>  
+      <caption>5 Estados mais populosos do Brasil</caption>
+    <thead>
+         <tr>
+            <th scope="col">Estado</th>
+            <th scope="col" class="populacao">população</th>
+        </tr>
+     </thead>
+         <tbody> 
+             <tr>
+            <td>São Paulo</td>
+            <td class="nume">46.649.132</td> 
+            </tr>
+            <tr>
+            <td>Minas Gerais</td>
+            <td class="nume">21.411.923</td>
+             </tr>
+             <tr>
+                 <td>Rio de Janeiro</td>
+                 <td class="nume">17.463.349	</td>
+             </tr>
+             <tr>
+                 <td>Bahia</td>
+                 <td class="nume">14.985.284	</td>
+             </tr>
+             <tr>
+                 <td>Paraná</td> 
+                 <td class="nume">11.597.484</td>
+                  </tr>
+         </tbody>
+         <tfoot>
+            <tr>
+            <th scope="row">Total de Habitantes</th>
+            <td class="nume"><strong>112.107.172</strong></td>
+            </tr>
+         </tfoot>
+    </table>
+</main>
+</body>
+</html>
