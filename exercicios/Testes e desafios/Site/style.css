@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200;300;400;500;600;700;800&display=swap');
+*{font-family: 'Mukta Vaani', sans-serif;
+}
+body{
+font-size: 1.5em;
+background-image: linear-gradient(to top, #171738,  #7375F5);
+background-attachment: fixed;
+}
+main{
+    background-color: #F5AE8C;
+    margin: auto;
+    width: 500px;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: justify;
+}
+h1{
+ text-shadow: 1px 1px 5px rgb(39, 39, 39);
+ color: #000000;
+}
+h2{
+    text-shadow: 1px 1px 5px rgb(39, 39, 39);
+    color: #000000;
+}
+p{
+    color: #000000;
+}
+audio{
+    color: #7375F5;
+}
+input{
+    background-image: linear-gradient(to right, #ce2424, #771f1f);
+    color: white;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: black;
+    width: 150px;
+    height: 26px;
+    box-shadow: 1px 1px 3px rgb(56, 56, 56);
+}

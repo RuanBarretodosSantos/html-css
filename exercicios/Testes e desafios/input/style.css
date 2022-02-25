@@ -1,0 +1,30 @@
+*{text-align: justify;
+}
+body{
+    background-image: linear-gradient(to left, #71e433, #b62222);
+    background-attachment: fixed;
+}
+main{
+    background-color: #52121286;
+    margin: auto;
+    width: 800px;
+    height: 800px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgb(58, 58, 58);
+    
+}
+input{
+    color: #ffffff;
+    background-image: linear-gradient(to left, #d60000, hsl(0, 64%, 34%));
+    height: 20px;
+    margin-left: 290px;
+    margin-bottom: 290px;
+   border-color: #303030b0;
+   border-radius: 7px;
+   border-width: 5px;
+}
+h1{
+   
+    margin-left: 299px;
+    margin-bottom: 100px;
+}
